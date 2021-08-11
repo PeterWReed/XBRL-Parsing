@@ -48,6 +48,9 @@ import xmlschema
 from xml.etree import ElementTree
 
 #
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0",
+}
 # The xml file below is the same XBRL LABEL LINKBASE DOCUMENT as used above.  The xsd url points to the XBRL SCHEMA DOCUMENT that
 # is part of a company's SEC 10-Q filing. "xmlTmp_xbrl" is a dictionary containing all label mappings from xbrl terminology to
 # commonly used nomenclature.
